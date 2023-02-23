@@ -1,0 +1,25 @@
+body {
+  display: flex;
+
+  padding: 100px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.generator-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+}
+.generator-btn:hover {
+  transform: scale(0.95);
+}
+
+.quote-cointainer {
+  border: 1px solid #000;
+  border-radius: 7px;
+  padding: 1 rem;
+}
